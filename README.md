@@ -1,4 +1,4 @@
-#Weather Prediction App
+# Weather Prediction App
 
 This project integrates real-time weather data with machine learning models to create an interactive and predictive weather forecasting platform. The system retrieves live weather conditions for user-specified locations using the OpenWeatherMap API and combines this data with historical climate records to make informed predictions about rain probability, future temperatures, and humidity levels.
 
