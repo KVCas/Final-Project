@@ -6,7 +6,7 @@ def app():
 
     st.write("""
     This app combines live weather data and predictive modeling to provide comprehensive weather insights.  
-    From real-time conditions to AI-driven forecasts, this is your weather analysis platform.
+    From real-time conditions and weather prediction, this is your weather analysis platform.
     """)
 
     st.write("""
@@ -14,6 +14,7 @@ def app():
     - **Explore Current Weather**: Get live updates for any city around the globe.
     - **Rain Prediction**: Curious about tomorrow’s precipitation? Let our machine learning model guide you.
     - **Future Insights**: Analyze temperature and humidity trends with advanced regression techniques.
+    - **Interactive Map**: Visualize weather details in a interactive map.
     """)
 
     st.sidebar.subheader("Navigation")

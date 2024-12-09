@@ -17,6 +17,8 @@ def weather_data(city):
     if response.status_code == 200:
         return {
             'city': data['name'],
+            'lat': data['coord']['lat'],
+            'lon': data['coord']['lon'],
             'current_temp': round(data['main']['temp']),
             'feels_like': round(data['main']['feels_like']),
             'temp_min': round(data['main']['temp_min']),
